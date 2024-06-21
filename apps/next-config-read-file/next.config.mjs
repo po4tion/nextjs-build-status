@@ -9,7 +9,7 @@ try {
   console.error("Error reading env.json file:", err);
 }
 
-console.log(`envConfig.status: ${envConfig.status}`);
+console.log(`🚀envConfig.status: ${envConfig.status}`);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
